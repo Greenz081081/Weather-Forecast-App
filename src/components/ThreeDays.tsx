@@ -94,18 +94,18 @@ const ThreeDaysWeatherResult = () => {
     <div className="bg-cover h-full" style={{ 
       backgroundImage: `url("/images/weather-5.jpg")`, 
     }}>
-      <div className='grid grid-cols-7 gap-2 m-auto p-4 w-full'>
+      <div className='md:grid md:grid-cols-7 flex flex-col gap-2 m-auto p-4 w-full'>
       <Image 
         src="/images/globe2.png"
         alt=""
         height={100}
         width={100}
         className=""/>
-        <h1 className="font-extrabold text-center mt-10 text-background col-start-3 col-end-6">Hourly Weather Forecast</h1>
-        <p className="text-center font-light mt-16 text-background col-start-3 col-end-6">
+        <h1 className="font-extrabold text-center mt-10 text-background md:col-start-3 md:col-end-6">Hourly Weather Forecast</h1>
+        <p className="text-center font-light mt-16 text-background md:col-start-3 md:col-end-6">
         This page displays hourly forecast for each three hours interval of the day
         </p>
-        <div className="col-start-1 col-end-2 p-3 h-auto font-thin mt-40 mb-20 shadow-lg bg-transparent border border-white text-background shadow-black rounded-xl w-48 text-center">
+        <div className="md:col-start-1 md:col-end-2 p-3 h-auto font-thin md:mt-40 md:mb-20 shadow-lg bg-transparent border border-white text-background shadow-black rounded-xl md:w-48 text-center">
           {data && data.list && data.list.length > 0 &&(
             <div>
                 <h1>Weather Forecast for <strong>{data.city.name}</strong></h1>
@@ -123,7 +123,7 @@ const ThreeDaysWeatherResult = () => {
             </div>
           )} 
           </div>
-          <div className="col-start-2 col-end-3 p-3 h-auto font-thin mt-40 mb-20 shadow-lg bg-transparent border border-white text-background shadow-black rounded-xl ml-8 w-48 text-center">
+          <div className="md:col-start-2 md:col-end-3 p-3 h-auto font-thin md:mt-40 md:mb-20 shadow-lg bg-transparent border border-white text-background shadow-black rounded-xl md:ml-8 md:w-48 text-center">
           {data && data.list && data.list.length > 0 &&(
             <div>
                 <h1>Weather Forecast for <strong>{data.city.name}</strong></h1>
@@ -141,7 +141,7 @@ const ThreeDaysWeatherResult = () => {
             </div>
           )} 
           </div>
-          <div className="col-start-3 col-end-4 p-3 h-auto mt-40 font-thin mb-20 shadow-lg bg-transparent border border-white text-background shadow-black w-48 ml-16 rounded-xl text-center">
+          <div className="md:col-start-3 md:col-end-4 p-3 h-auto md:mt-40 font-thin md:mb-20 shadow-lg bg-transparent border border-white text-background shadow-black md:w-48 md:ml-16 rounded-xl text-center">
           {data && data.list && data.list.length > 0 &&(
             <div>
                 <h1>Weather Forecast for <strong>{data.city.name}</strong></h1>
@@ -159,7 +159,7 @@ const ThreeDaysWeatherResult = () => {
             </div>
           )} 
           </div>
-          <div className="col-start-4 col-end-5 p-3 h-auto mt-40 font-thin mb-20 shadow-lg bg-transparent border border-white text-background shadow-black w-48 ml-24 rounded-xl text-center">
+          <div className="md:col-start-4 md:col-end-5 p-3 h-auto md:mt-40 font-thin md:mb-20 shadow-lg bg-transparent border border-white text-background shadow-black md:w-48 md:ml-24 rounded-xl text-center">
           {data && data.list && data.list.length > 0 &&(
             <div>
                 <h1>Weather Forecast for <strong>{data.city.name}</strong></h1>
@@ -177,7 +177,7 @@ const ThreeDaysWeatherResult = () => {
             </div>
           )} 
           </div>
-          <div className="col-start-5 col-end-6 p-3 h-auto mt-40 font-thin mb-20 shadow-lg bg-transparent border border-white text-background shadow-black w-48 ml-32 rounded-xl text-center">
+          <div className="md:col-start-5 md:col-end-6 p-3 h-auto md:mt-40 font-thin md:mb-20 shadow-lg bg-transparent border border-white text-background shadow-black md:w-48 md:ml-32 rounded-xl text-center">
           {data && data.list && data.list.length > 0 &&(
             <div>
                 <h1>Weather Forecast for <strong>{data.city.name}</strong></h1>
@@ -195,7 +195,7 @@ const ThreeDaysWeatherResult = () => {
             </div>
           )} 
           </div>
-          <div className="col-start-6 col-end-7 p-3 h-auto mt-40 font-thin mb-20 shadow-lg bg-transparent border border-white text-background shadow-black w-48 ml-40 rounded-xl text-center">
+          <div className="md:col-start-6 md:col-end-7 p-3 h-auto md:mt-40 font-thin md:mb-20 shadow-lg bg-transparent border border-white text-background shadow-black md:w-48 md:ml-40 rounded-xl text-center">
           {data && data.list && data.list.length > 0 &&(
             <div>
                 <h1>Weather Forecast for <strong>{data.city.name}</strong></h1>

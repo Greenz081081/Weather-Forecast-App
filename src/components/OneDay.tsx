@@ -91,7 +91,7 @@ const WeatherResult = () => {
     <div className="bg-cover h-full" style={{ 
         backgroundImage: `url("/images/weather-9.jpg")`, 
     }}>
-        <div className='p-8'>
+        <div className='p-4 md:p-8'>
         <Image 
             src="/images/globe2.png"
             alt=""
@@ -101,7 +101,7 @@ const WeatherResult = () => {
         <h1 className="font-extrabold text-white text-center">One Day Weather Forecast</h1>
         {/* Display the weather forecast data */}
         {data && data.list && data.list.length > 0 && (
-            <div className='p-8 h-auto mt-16 mb-20 m-auto shadow-lg shadow-black w-64 border border-background text-background rounded-xl text-center bg-transparent'>
+            <div className='p-4 md:p-8 h-auto mt-16 mb-20 m-auto shadow-lg shadow-black md:w-64 border border-background text-background rounded-xl text-center bg-transparent'>
             <h1>Weather Forecast for <strong>{data.city.name}</strong></h1>
             {/* Display weather information as needed */}
             <p>Condition Description: {data.list[0].weather[0].description}</p>

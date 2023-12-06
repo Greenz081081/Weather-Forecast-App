@@ -7,7 +7,7 @@ export default function Header() {
             <nav className="md:flex p-5 md:justify-between w-auto">
                 <div className="flex justify-between items-center cursor-pointer">
                 <Link href="/" className="cursor-pointer">
-                <span className="text-3xl font-thin
+                <span className="md:text-3xl text-2xl font-thin
                 ">
                     Emerald&apos;s Weather Forecast
                 </span>

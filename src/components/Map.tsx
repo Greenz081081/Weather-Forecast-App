@@ -136,7 +136,7 @@ import { useRouter } from 'next/router';
       backgroundImage: `url("/images/weather-9.jpg")`, 
   }}>
     <div className='p-10 flex justify-center items-center h-full'>
-      <div className='m-auto' id="openweathermap-widget-11"></div>
+      {/* <div className='m-auto flex flex-col w-44' id="openweathermap-widget-11"></div> */}
     </div>
 
     </div>
