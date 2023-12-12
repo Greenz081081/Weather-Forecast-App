@@ -13,6 +13,7 @@ export default function Layout({ children }: LayoutProps) {
     return (
             <div className="main-layout h-full">
                 <Head>
+                    <meta charSet="UTF-8" />
                     <title>{siteTitle}</title>
                 </Head>
                 <Header />

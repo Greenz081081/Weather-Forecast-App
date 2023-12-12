@@ -7,6 +7,7 @@ export default function Hero() {
                 backgroundImage: `url("/images/sunny.jpg")`, 
             }}>
                 <div className="md:grid md:grid-cols-6 flex flex-col p-2 h-auto gap-2">
+                    <h1 className="text-background text-center col-start-2 mt-2 font-bold underline col-end-6">Welcome & enjoy Forecasting</h1>
                     <div className="md:col-start-1 md:col-end-3 md:row-start-4 md:row-end-6 p-10 rounded-3xl 
                     text-background shadow-lg shadow-black border border-background font-thin">
                     <p>If you want to see the sunshine, you have to weather the storm.</p>
@@ -17,9 +18,14 @@ export default function Hero() {
                     </div>
                     <div className="md:col-start-5 md:col-end-6 md:mt-0 mt-8 md:mb-0 mb-16 md:ml-40 
                         md:row-start-4 md:row-end-5">
-                       <button className="absolute text-background border border-background p-2 
-                       rounded-sm hover:bg-highlight hover:-translate-y-1 hover:scale-110 
-                       duration-300 w-40 shadow-lg shadow-black" typeof="submit"><Link href={'/Forecast'}>Forecast</Link></button>
+                        <ul>
+                            <li>
+                                <Link href={'/Forecast'} className="absolute text-background 
+                                    border-background p-2 text-center rounded-sm hover:bg-highlight hover:-translate-y-1 hover:scale-110 
+                                    duration-300 w-40 shadow-lg shadow-black">Forecast
+                                </Link>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>

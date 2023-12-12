@@ -1,5 +1,4 @@
 import Link from "next/link";
-import Image from "next/image";
 
 export default function Header() {
     return (
@@ -20,7 +19,7 @@ export default function Header() {
                     <li className="text-lg mx-4"><Link href="/Forecast" className="cursor-pointer">Forecast</Link></li>
                     <li className="text-lg mx-4"><Link href="/OneDayPage" className="cursor-pointer">One Day Forecast</Link></li>
                     <li className="text-lg mx-4"><Link href="/ThreeDaysPage" className="cursor-pointer">Hourly Forecast</Link></li>
-                    <li className="text-green-500 text-lg mx-4"><Link href="/MapPage" className="cursor-pointer">Radar Maps</Link></li>
+                    <li className="text-green-500 text-lg mx-4"><Link href="/MapPage" className="cursor-pointer">Weekly Forecast</Link></li>
                 </ul>
             </nav>
         </div>

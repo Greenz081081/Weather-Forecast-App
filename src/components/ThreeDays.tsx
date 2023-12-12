@@ -5,10 +5,7 @@ import Image from 'next/image';
 interface WeatherData {
   lat: number;
   lon: number;
-  // city: string;
-
   city: any;
-
   list: {
     weather: { description: string; icon: string }[];
     main: { temp: number; humidity: number };
