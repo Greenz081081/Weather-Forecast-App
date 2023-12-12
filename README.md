@@ -1,36 +1,35 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Weather Forecast App Project Summary
 
-## Getting Started
+## Purpose
 
-First, run the development server:
+The "Weather Forecast Application is a Next.js application built to rely on user input to retrieve weather information from a public API.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Functionality Features: Weather Forecast, API integration, Responsive design, Multiple views for hourly forecast, daily forecast, and radar maps.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Requirements
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- _Weekly Weather Forecast:_ Weather is forecasted weekly
+- _Hourly Weather Forecast:_ Weather is forecasted hourly on three hours interval of the day
+- _Daily Weather Forecast:_ Weather is forecasted daily
+- _Accessibility:_ Compliance with WCAG 2.1, Level AA for inclusivity.
+- _Responsive Design:_ Optimized experience across various devices.
+- _Consistent Branding and Navigation:_ Clear layout and cohesive design.
+- _Specified Technologies:_ Front-end (HTML, CSS, JavaScript, React/Next.js), Back-end (TypeScript, Node.js, Database: Postgres/Mongo/SQLite).
+- _Project Management:_ Azure DevOps Boards.
+- _Code Management:_ Azure DevOps Repo.
+- _Deployment:_ Vercel cloud platform.
 
-## Learn More
+## Limitations
 
-To learn more about Next.js, take a look at the following resources:
+Potential constraints may include the scope of features and development time. Specific limitations will be influenced by the constraints of the development team.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Note: This README provides an overview/summary of the "Weather Forecast App" project, outlining its purpose, requirements, and potential limitations.
 
-## Deploy on Vercel
+## Authors
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+*Edet Emediong Henry (ede21005@byui.edu)
